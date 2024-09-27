@@ -14,7 +14,7 @@
 ----------------------------------------------------*/
 
 html {
-    font-size: calc(10px + 1vw);
+    font-size: calc(10px + 0.7vw);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #21243d;
 }
@@ -24,9 +24,6 @@ html body a {
     color: #21243d;
 }
 
-main {
-    margin: 0vw 20vw 0vw 15vw;
-}
 
 
 /*-----------------------------------------------------
@@ -43,34 +40,51 @@ header nav ul {
 }
 
 header nav ul li {
-    margin: 4vw 10px 0 10px;
+    margin: 4vw 10px 0 10px; 
+}
+
+header nav ul li a {
+    padding: 0 1.5vw 0 1.5vw;
 }
 
 header nav ul li.atual a {
     color: rgba(255, 100, 100, 1);
 }
 
+
+
 /*-----------------------------------------------------
                 Formatação de works
 ----------------------------------------------------*/
 
+section.page1 {
+    margin: 0 20vw 0 18vw;
+}
+
+h1 {
+    margin: 0 20vw 0 18vw;
+}
+
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #E0E0E0;
+    margin: 5vw 17.5vw 6vw 17.5vw;
+}
+
 main.works h1 {
     font-weight: normal;
-    margin: 0vw 0vw -1vw 0vw;
+    font-size: 2.5rem;
+    margin: 0vw 0vw 3vw 0vw;
 }
 
 main.works section:last-child {
     border: none;
 }
 
-main.works section {
-    border-bottom: 1px solid #e0e0e0;
-    padding: 5vw 0vw 4vw 0vw;
-}
-
 main.works section p {
     margin: 2vw 0vw 2vw 0vw;
-
 }
 
 main.works section p span {
@@ -88,7 +102,7 @@ main.works section p span {
 
 section.banner{
     display: flex;
-    margin: 9vw 0vw 5vw 0vw;
+    margin: 9vw 20vw 5vw 18vw;
 }
 
 section.banner h1{
@@ -111,12 +125,12 @@ section.banner button{
 
 section.RtPost{
     background-color: rgb(237, 247, 250, 1);
-    padding: 3vw 0vw 3vw 0;
+    padding: 3vw 16vw 3vw 18vw;
 }
 
 section.RtPost h2 {
     font-weight: normal;
-    margin: 0 0 2vw 0
+    padding: 0 0 2vw 0
 }
 
 section.RtPost ul{
@@ -126,8 +140,8 @@ section.RtPost ul{
 
 section.RtPost ul li{
     background-color: white;
-    padding: 2vw 2vw 2vw 1.5vw;
-    margin: 0vw 3vw 0vw 0vw;
+    padding: 2vw 2vw 2vw 2vw;
+    margin: 0vw 5vw 0vw -1vw;
 }
 
 section.RtPost ul li:last-child{
@@ -146,18 +160,15 @@ section.ft-works h2 {
 }
 
 section.ft-works{
-    margin: 2vw 0 6vw 0;
+    margin: 2vw 20vw 6vw 18vw;
 }
 
 section.ft-works > div {
     display: flex;
-    
 }
 
 section.ft-works div div.imgTwo {
-   
     margin: 0 0vw 0 6vw;
-    
 }
 
 
@@ -166,8 +177,7 @@ section.ft-works div h3 {
 }
 
 section.ft-works div p {
-    margin: 3vw 2vw 2vw 0vw;
-   
+    margin: 3vw 2vw 2vw 0vw; 
 }
 
 section.ft-works div p.cor {
@@ -191,7 +201,7 @@ section.ft-works div p span{
 
 footer {
     text-align: center;
-    padding: 1vw 0vw 2vw 0vw;
+    padding: 1vw 0vw 3vw 0vw;
 }
 
 footer nav ul {
@@ -200,17 +210,10 @@ footer nav ul {
 }
 
 footer nav ul li {
-    margin: 0px 5px 5px 5px;
-    font-size: 1.4rem;
+    margin: 4vw 1.7vw 1.5vw 1.7vw;
+    font-size: 2rem;
 }
 
 footer nav ul a span {
     color: #21243d;
 }
-
-
-
-
-
-
-    
