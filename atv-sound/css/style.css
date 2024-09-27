@@ -1,0 +1,214 @@
+html body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: right;
+    margin: 3vw 8vw 10vw 0;
+}
+
+header nav ul li {
+    padding: 0 2vw 0 2vw;
+    
+}
+
+header nav ul li.soundtrack {
+    margin: 0 57vw 0 0;
+    
+
+}
+
+header nav ul li.conta {
+    color: #553C16;
+} 
+
+header nav ul li span {
+    color: white;
+    font-size: 100%;
+    background-color: #000000;
+    padding: 10px 16px 10px 16px;
+    border-radius: 5vw;
+
+}
+
+
+
+
+
+
+
+
+main section.contact {
+    display: flex;
+    margin: 2vw 5vw 8vw 7vw;
+}
+
+main section.contact img {
+    border-radius: 15vw;
+}
+
+main section.contact div {
+    padding: 6vw 0 0 17vw;
+}
+
+main section.contact h2 {
+    font-size: 4rem;
+    padding: 0 0 9vw 0;
+    color: #121212;
+}
+
+main section.contact p.text {
+    color: #404852;
+}
+
+main section.contact p {
+    font-size: 20px;
+    padding: 0 0 3vw 0;
+
+}
+
+main section.contact div div {
+    display: flex;
+    padding: 0 0 0 0;
+}
+
+main section.contact div div img {
+    margin: 0 1vw 0 0;
+}
+
+
+main section.contact div div p {
+    padding: 5px 0 0 0;
+    color: #273240;
+}
+
+main section.contact div div p span {
+    color: #9E9B9B;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #9E9B9B;
+    margin: 20px 8vw 0px 8vw;
+}
+
+
+
+
+
+
+main section.browse {
+    display: flex;
+    padding: 8vw 9vw 5vw 8vw;
+}
+
+main section.browse div h2 {
+    font-size: 4rem;
+    color: #000000;
+    padding: 0 10vw 0 0;
+}
+
+main section.browse div.bro p {
+    font-size: 20px;
+    color: #404852;
+}
+
+
+main section.browse div p {
+    justify-content: center;
+    color: #9E9B9B;
+    padding: 0 15vw 0 0;
+    font-size: 2.5rem;
+}
+
+main section.browse div p {
+    color: #9E9B9B;
+    font-size: 20px;
+    padding: 0 10vw 0 0;
+}
+
+
+
+
+
+
+main section.browse div.ordem span {
+    display: flex;
+}
+
+main section.browse div.ordem {
+
+    padding: 1vw 7vw 0 0;
+}
+
+main section.browse div.ordem p {
+    font-size: 20px;
+    color: #9E9B9B;
+
+}
+
+main section.browse div.ordem h3 {
+    display: flex;
+
+}
+
+main section.browse div.ordem h3 span.number {
+    font-size: 2rem;
+    padding: 0.5vw 2vw 0 0;
+    color: #9E9B9B;
+}
+
+main section.browse div.ordem h3 span.title {
+    font-size: 2.9rem;
+
+}
+
+
+main section.browse div.ordem hr {
+    border: none;
+    height: 2px;
+    background-color: #9E9B9B;
+    margin: 4vw 0 0 0;
+}
+
+main section.browse div.ordem span p {
+    padding: 0 0 0 1vw;
+}
+
+main section.browse div.ordem p {
+    padding: 0 0 0 4.5vw;
+}
+
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 5vw 0vw 5vw 0vw;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    
+    font-size: 2.5rem;
+    padding: 1vw 1.3vw 2vw 1.3vw;
+}
+
+footer nav ul a  {
+    color: #21243D;
+}
